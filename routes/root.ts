@@ -6,7 +6,7 @@
 
     module.exports = function(app,status) {
 
-        app.get('/', function (req, res) {
+        app.post('/', function (req, res) {
             let settings=require('../helper/settings');
 
             let data = {
@@ -24,6 +24,7 @@
             res.end();
         });
     };
+    
 
 }).call(this);
 
