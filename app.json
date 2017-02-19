@@ -1,6 +1,7 @@
 {
   "name": "pooya-slack-demo",
   "scripts": {
+    "start": "node ./server.js"
   },
   "env": {
   },

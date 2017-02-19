@@ -1,0 +1,27 @@
+{
+  "name": "pooya-slack-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "@types/node": "^7.0.5",
+    "body-parser": "^1.16.1",
+    "compression": "^1.6.2",
+    "cors": "^2.8.1",
+    "express": "^4.14.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ParidelPooya/pooya-slack-demo.git"
+  },
+  "author": "Pooya Paridel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ParidelPooya/pooya-slack-demo/issues"
+  },
+  "homepage": "https://github.com/ParidelPooya/pooya-slack-demo#readme"
+}
