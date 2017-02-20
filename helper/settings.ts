@@ -5,10 +5,7 @@
 (function() {
 
 var defSettings={
-    port:"5000",
-    SLACK_CLIENT_ID:"144193576743.143502641042",
-    SLACK_CLIENT_SECRET:"d14645f6a046c023b3e655f7bab38006",
-    SLACK_VERIFICATION_TOKEN:""
+    port:"5000"
 };
 
 module.exports = {
