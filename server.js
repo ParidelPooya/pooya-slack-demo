@@ -71,7 +71,7 @@
      * Get port from environment and store in Express.
      */
 
-    port = process.env.PORT || 5000;
+    port = process.env.PORT || normalizePort(settings.read("port"));
 
     app.set('port', port);
 

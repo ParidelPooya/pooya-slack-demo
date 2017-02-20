@@ -13,7 +13,11 @@
 
     var app = express();
 
+    app.use(bodyParser.json());
+    app.use(bodyParser.urlencoded({ extended: true }));
+
     require('./routes/root')(app);
+    require('./routes/slack')(app);
 
     process.on('uncaughtException', function (err) {
         console.error(err.stack);
