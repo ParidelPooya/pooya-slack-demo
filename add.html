@@ -3,15 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <title>Add Movie Command</title>
-</head>
-<body style="text-align: center">
-    <div style="font-size: 24px">
-        Do you want to find a movie, it's easy, simply type "/movie keyword" and this slack command will search IMDB and will show you the link to the best matched film. I wrote this App to create a simple example of how to create Slack App.
-    </div>
+    <style>
+        .body{
+            background-color:#444444;
+            color:white;
+            text-align: center;
+            margin:0px;
+            font-size: 28px;
+        }
+        .row1{
+            background-color:#0000EE;
+            color:white;
+            height:150px;
+            font-size: 48px;
+            font-family: "Times New Roman";
+            font-weight: 900;
+        }
 
-    <br/>
-    <a href="https://slack.com/oauth/authorize?scope=incoming-webhook,commands+team%3Aread&client_id=144193576743.143502641042">
+        .row2{
+            text-align: left;
+            padding-left: 25px;
+            padding-top: 25px;
+        }
+
+        .flt{
+            position: relative;
+            top:-25px;
+        }
+    </style>
+</head>
+<body class="body" style="">
+    <div class="row1">
+        Slack Movie Command
+    </div>
+    <a class="flt" href="https://slack.com/oauth/authorize?scope=incoming-webhook,commands+team%3Aread&client_id=144193576743.143502641042">
         <img alt="Add to Slack" height="40" width="139" src="https://platform.slack-edge.com/img/add_to_slack.png" srcset="https://platform.slack-edge.com/img/add_to_slack.png 1x, https://platform.slack-edge.com/img/add_to_slack@2x.png 2x" />
     </a>
+    <div class="row2">
+        Do you want to find a movie, it's easy.
+        <br/>
+        Simply type "/movie keyword" and this slack command will search IMDB and will show you the link to the best matched film.
+        <br/>
+        I wrote this App to create a simple example of how to create Slack App.
+    </div>
 </body>
 </html>
