@@ -7,7 +7,7 @@
     module.exports = function (app, status) {
 
         let request = require('request');
-        let settings = require('./helper/settings');
+        let settings = require('../helper/settings');
 
         app.get('/slack', function (req, res) {
             if (!req.query.code) { // access denied
