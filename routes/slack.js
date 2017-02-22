@@ -29,7 +29,8 @@
                             }
                             else {
                                 let team = JSON.parse(body).team.domain;
-                                res.redirect('http://' + team + '.slack.com');
+                                //res.redirect('http://' + team + '.slack.com');
+                                res.redirect('https://paridelpooya.github.io/pooya-slack-demo/success.html');
                             }
                         }
                     });
