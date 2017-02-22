@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6c07f0a7-77c8-4433-a3f3-57bfc19233eb" name="Default" comment="" />
+    <list default="true" id="6c07f0a7-77c8-4433-a3f3-57bfc19233eb" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/add.html" afterPath="$PROJECT_DIR$/add.html" />
+    </list>
     <ignored path="pooya-slack-demo.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -72,11 +74,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="add.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="add.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/add.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="408">
-              <caret line="46" column="67" lean-forward="false" selection-start-line="46" selection-start-column="67" selection-end-line="46" selection-end-column="67" />
+              <caret line="46" column="32" lean-forward="false" selection-start-line="46" selection-start-column="32" selection-end-line="46" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -92,7 +94,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="support.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="support.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/support.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="404">
@@ -157,11 +159,11 @@
         <option value="$PROJECT_DIR$/helper/settings.ts" />
         <option value="$PROJECT_DIR$/routes/slack.ts" />
         <option value="$PROJECT_DIR$/routes/root.ts" />
-        <option value="$PROJECT_DIR$/add.html" />
         <option value="$PROJECT_DIR$/success.html" />
         <option value="$PROJECT_DIR$/routes/slack.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/support.html" />
+        <option value="$PROJECT_DIR$/add.html" />
       </list>
     </option>
   </component>
@@ -376,12 +378,12 @@
       <workItem from="1487657266712" duration="19000" />
       <workItem from="1487661790571" duration="1486000" />
       <workItem from="1487692136245" duration="608000" />
-      <workItem from="1487740246680" duration="1231000" />
+      <workItem from="1487740246680" duration="1367000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22424000" />
+    <option name="totallyTimeSpent" value="22560000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -854,14 +856,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/add.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="46" column="67" lean-forward="false" selection-start-line="46" selection-start-column="67" selection-end-line="46" selection-end-column="67" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/success.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="424">
@@ -890,6 +884,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="404">
           <caret line="40" column="89" lean-forward="false" selection-start-line="40" selection-start-column="89" selection-end-line="40" selection-end-column="89" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="46" column="32" lean-forward="false" selection-start-line="46" selection-start-column="32" selection-end-line="46" selection-end-column="32" />
           <folding />
         </state>
       </provider>
