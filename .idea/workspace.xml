@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c07f0a7-77c8-4433-a3f3-57bfc19233eb" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/slack.js" afterPath="$PROJECT_DIR$/routes/slack.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/slack.js.map" afterPath="$PROJECT_DIR$/routes/slack.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/slack.ts" afterPath="$PROJECT_DIR$/routes/slack.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/root.js" afterPath="$PROJECT_DIR$/routes/root.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/root.js.map" afterPath="$PROJECT_DIR$/routes/root.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/root.ts" afterPath="$PROJECT_DIR$/routes/root.ts" />
     </list>
     <ignored path="pooya-slack-demo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,11 +37,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="root.ts" pinned="false" current-in-tab="false">
+      <file leaf-file-name="root.ts" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/routes/root.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="765">
-              <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+            <state relative-caret-position="141">
+              <caret line="32" column="31" lean-forward="false" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -60,8 +61,16 @@
         <entry file="file://$PROJECT_DIR$/routes/root.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="714">
-              <caret line="42" column="19" lean-forward="false" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
-              <folding />
+              <caret line="43" column="19" lean-forward="false" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="19" />
+              <folding>
+                <marker date="1487740270259" expanded="true" signature="655:2583" ph="{...}" />
+                <marker date="1487740270259" expanded="true" signature="693:2580" ph="{...}" />
+                <marker date="1487740270259" expanded="true" signature="737:2572" ph="{...}" />
+                <marker date="1487740270259" expanded="true" signature="803:2560" ph="{...}" />
+                <marker date="1487740270259" expanded="true" signature="1681:1829" ph="{&quot;response_type&quot;: 'in_channel'...}" />
+                <marker date="1487740270259" expanded="true" signature="2104:2279" ph="{&quot;color&quot;: &quot;##0000ff&quot;...}" />
+                <marker date="1487740270259" expanded="true" signature="2361:2482" ph="{&quot;url&quot;: response_url...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -89,30 +98,17 @@
       <file leaf-file-name="slack.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/slack.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
+            <state relative-caret-position="119">
               <caret line="7" column="33" lean-forward="false" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
-              <folding>
-                <marker date="1487662678540" expanded="true" signature="63:1742" ph="{...}" />
-                <marker date="1487662678540" expanded="true" signature="109:1739" ph="{...}" />
-                <marker date="1487662678540" expanded="true" signature="253:1731" ph="{...}" />
-                <marker date="1487662678540" expanded="true" signature="288:407" ph="{...}" />
-                <marker date="1487662678540" expanded="true" signature="431:667" ph="{...}" />
-                <marker date="1487662678540" expanded="true" signature="455:653" ph="{&quot;code&quot;: req.query.code...}" />
-                <marker date="1487662678540" expanded="true" signature="771:1719" ph="{...}" />
-                <marker date="1487662678540" expanded="true" signature="831:1705" ph="{...}" />
-                <marker date="1487662678540" expanded="true" signature="1153:1685" ph="{...}" />
-                <marker date="1487662678540" expanded="true" signature="1221:1663" ph="{...}" />
-                <marker date="1487662678540" expanded="true" signature="1298:1420" ph="{...}" />
-                <marker date="1487662678540" expanded="true" signature="1454:1637" ph="{...}" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="slack.ts" pinned="false" current-in-tab="true">
+      <file leaf-file-name="slack.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/slack.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
+            <state relative-caret-position="124">
               <caret line="9" column="34" lean-forward="false" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
               <folding>
                 <element signature="e#291#427#0" expanded="false" />
@@ -155,6 +151,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>debug</find>
+      <find>search</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -170,13 +167,13 @@
         <option value="$PROJECT_DIR$/helper/modern-xml-parser.ts" />
         <option value="$PROJECT_DIR$/routes/root.js" />
         <option value="$PROJECT_DIR$/server.js" />
-        <option value="$PROJECT_DIR$/routes/root.ts" />
         <option value="$PROJECT_DIR$/app.ts" />
         <option value="$PROJECT_DIR$/routes/slack.js" />
         <option value="$PROJECT_DIR$/privacy.html" />
         <option value="$PROJECT_DIR$/helper/settings.ts" />
         <option value="$PROJECT_DIR$/add.html" />
         <option value="$PROJECT_DIR$/routes/slack.ts" />
+        <option value="$PROJECT_DIR$/routes/root.ts" />
       </list>
     </option>
   </component>
@@ -210,7 +207,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -271,6 +267,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -384,12 +381,14 @@
       <workItem from="1487539529746" duration="18443000" />
       <workItem from="1487655934875" duration="637000" />
       <workItem from="1487657266712" duration="19000" />
-      <workItem from="1487661790571" duration="889000" />
+      <workItem from="1487661790571" duration="1486000" />
+      <workItem from="1487692136245" duration="608000" />
+      <workItem from="1487740246680" duration="32000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19988000" />
+    <option name="totallyTimeSpent" value="21225000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -400,19 +399,19 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5400982" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36988544" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.497545" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5400982" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.497545" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -458,6 +457,40 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/routes/slack.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="33" lean-forward="false" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/slack.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#291#427#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="23" lean-forward="false" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/privacy.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="7" lean-forward="false" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/server.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -488,7 +521,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="714">
           <caret line="42" column="19" lean-forward="false" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
-          <folding />
+          <folding>
+            <marker date="1487740270259" expanded="true" signature="655:2583" ph="{...}" />
+            <marker date="1487740270259" expanded="true" signature="693:2580" ph="{...}" />
+            <marker date="1487740270259" expanded="true" signature="737:2572" ph="{...}" />
+            <marker date="1487740270259" expanded="true" signature="803:2560" ph="{...}" />
+            <marker date="1487740270259" expanded="true" signature="1681:1829" ph="{&quot;response_type&quot;: 'in_channel'...}" />
+            <marker date="1487740270259" expanded="true" signature="2104:2279" ph="{&quot;color&quot;: &quot;##0000ff&quot;...}" />
+            <marker date="1487740270259" expanded="true" signature="2361:2482" ph="{&quot;url&quot;: response_url...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -512,20 +553,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="33" lean-forward="false" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
-          <folding>
-            <marker date="1487662678540" expanded="true" signature="63:1742" ph="{...}" />
-            <marker date="1487662678540" expanded="true" signature="109:1739" ph="{...}" />
-            <marker date="1487662678540" expanded="true" signature="253:1731" ph="{...}" />
-            <marker date="1487662678540" expanded="true" signature="288:407" ph="{...}" />
-            <marker date="1487662678540" expanded="true" signature="431:667" ph="{...}" />
-            <marker date="1487662678540" expanded="true" signature="455:653" ph="{&quot;code&quot;: req.query.code...}" />
-            <marker date="1487662678540" expanded="true" signature="771:1719" ph="{...}" />
-            <marker date="1487662678540" expanded="true" signature="831:1705" ph="{...}" />
-            <marker date="1487662678540" expanded="true" signature="1153:1685" ph="{...}" />
-            <marker date="1487662678540" expanded="true" signature="1221:1663" ph="{...}" />
-            <marker date="1487662678540" expanded="true" signature="1298:1420" ph="{...}" />
-            <marker date="1487662678540" expanded="true" signature="1454:1637" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -585,7 +613,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="714">
           <caret line="42" column="19" lean-forward="false" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
-          <folding />
+          <folding>
+            <marker date="1487740270259" expanded="true" signature="655:2583" ph="{...}" />
+            <marker date="1487740270259" expanded="true" signature="693:2580" ph="{...}" />
+            <marker date="1487740270259" expanded="true" signature="737:2572" ph="{...}" />
+            <marker date="1487740270259" expanded="true" signature="803:2560" ph="{...}" />
+            <marker date="1487740270259" expanded="true" signature="1681:1829" ph="{&quot;response_type&quot;: 'in_channel'...}" />
+            <marker date="1487740270259" expanded="true" signature="2104:2279" ph="{&quot;color&quot;: &quot;##0000ff&quot;...}" />
+            <marker date="1487740270259" expanded="true" signature="2361:2482" ph="{&quot;url&quot;: response_url...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -609,20 +645,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="33" lean-forward="false" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
-          <folding>
-            <marker date="1487662678540" expanded="true" signature="63:1742" ph="{...}" />
-            <marker date="1487662678540" expanded="true" signature="109:1739" ph="{...}" />
-            <marker date="1487662678540" expanded="true" signature="253:1731" ph="{...}" />
-            <marker date="1487662678540" expanded="true" signature="288:407" ph="{...}" />
-            <marker date="1487662678540" expanded="true" signature="431:667" ph="{...}" />
-            <marker date="1487662678540" expanded="true" signature="455:653" ph="{&quot;code&quot;: req.query.code...}" />
-            <marker date="1487662678540" expanded="true" signature="771:1719" ph="{...}" />
-            <marker date="1487662678540" expanded="true" signature="831:1705" ph="{...}" />
-            <marker date="1487662678540" expanded="true" signature="1153:1685" ph="{...}" />
-            <marker date="1487662678540" expanded="true" signature="1221:1663" ph="{...}" />
-            <marker date="1487662678540" expanded="true" signature="1298:1420" ph="{...}" />
-            <marker date="1487662678540" expanded="true" signature="1454:1637" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -682,7 +705,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="714">
           <caret line="42" column="19" lean-forward="true" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
-          <folding />
+          <folding>
+            <marker date="1487740270259" expanded="true" signature="655:2583" ph="{...}" />
+            <marker date="1487740270259" expanded="true" signature="693:2580" ph="{...}" />
+            <marker date="1487740270259" expanded="true" signature="737:2572" ph="{...}" />
+            <marker date="1487740270259" expanded="true" signature="803:2560" ph="{...}" />
+            <marker date="1487740270259" expanded="true" signature="1681:1829" ph="{&quot;response_type&quot;: 'in_channel'...}" />
+            <marker date="1487740270259" expanded="true" signature="2104:2279" ph="{&quot;color&quot;: &quot;##0000ff&quot;...}" />
+            <marker date="1487740270259" expanded="true" signature="2361:2482" ph="{&quot;url&quot;: response_url...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -706,20 +737,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="33" lean-forward="false" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
-          <folding>
-            <marker date="1487662678540" expanded="true" signature="63:1742" ph="{...}" />
-            <marker date="1487662678540" expanded="true" signature="109:1739" ph="{...}" />
-            <marker date="1487662678540" expanded="true" signature="253:1731" ph="{...}" />
-            <marker date="1487662678540" expanded="true" signature="288:407" ph="{...}" />
-            <marker date="1487662678540" expanded="true" signature="431:667" ph="{...}" />
-            <marker date="1487662678540" expanded="true" signature="455:653" ph="{&quot;code&quot;: req.query.code...}" />
-            <marker date="1487662678540" expanded="true" signature="771:1719" ph="{...}" />
-            <marker date="1487662678540" expanded="true" signature="831:1705" ph="{...}" />
-            <marker date="1487662678540" expanded="true" signature="1153:1685" ph="{...}" />
-            <marker date="1487662678540" expanded="true" signature="1221:1663" ph="{...}" />
-            <marker date="1487662678540" expanded="true" signature="1298:1420" ph="{...}" />
-            <marker date="1487662678540" expanded="true" signature="1454:1637" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -803,8 +821,16 @@
     <entry file="file://$PROJECT_DIR$/routes/root.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="714">
-          <caret line="42" column="19" lean-forward="false" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
-          <folding />
+          <caret line="43" column="19" lean-forward="false" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="19" />
+          <folding>
+            <marker date="1487740270259" expanded="true" signature="655:2583" ph="{...}" />
+            <marker date="1487740270259" expanded="true" signature="693:2580" ph="{...}" />
+            <marker date="1487740270259" expanded="true" signature="737:2572" ph="{...}" />
+            <marker date="1487740270259" expanded="true" signature="803:2560" ph="{...}" />
+            <marker date="1487740270259" expanded="true" signature="1681:1829" ph="{&quot;response_type&quot;: 'in_channel'...}" />
+            <marker date="1487740270259" expanded="true" signature="2104:2279" ph="{&quot;color&quot;: &quot;##0000ff&quot;...}" />
+            <marker date="1487740270259" expanded="true" signature="2361:2482" ph="{&quot;url&quot;: response_url...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -818,14 +844,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/root.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -836,22 +854,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/slack.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
+        <state relative-caret-position="119">
           <caret line="7" column="33" lean-forward="false" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
-          <folding>
-            <marker date="1487662678540" expanded="true" signature="63:1742" ph="{...}" />
-            <marker date="1487662678540" expanded="true" signature="109:1739" ph="{...}" />
-            <marker date="1487662678540" expanded="true" signature="253:1731" ph="{...}" />
-            <marker date="1487662678540" expanded="true" signature="288:407" ph="{...}" />
-            <marker date="1487662678540" expanded="true" signature="431:667" ph="{...}" />
-            <marker date="1487662678540" expanded="true" signature="455:653" ph="{&quot;code&quot;: req.query.code...}" />
-            <marker date="1487662678540" expanded="true" signature="771:1719" ph="{...}" />
-            <marker date="1487662678540" expanded="true" signature="831:1705" ph="{...}" />
-            <marker date="1487662678540" expanded="true" signature="1153:1685" ph="{...}" />
-            <marker date="1487662678540" expanded="true" signature="1221:1663" ph="{...}" />
-            <marker date="1487662678540" expanded="true" signature="1298:1420" ph="{...}" />
-            <marker date="1487662678540" expanded="true" signature="1454:1637" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -881,11 +886,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/slack.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
+        <state relative-caret-position="124">
           <caret line="9" column="34" lean-forward="false" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
           <folding>
             <element signature="e#291#427#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/root.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="32" column="31" lean-forward="false" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
+          <folding />
         </state>
       </provider>
     </entry>

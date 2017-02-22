@@ -30,7 +30,7 @@
 
             data = {
                 response_type: 'in_channel', // public to the channel
-                text: 'Search Result for' + movieName,
+                text: 'Search result for ' + movieName,
                 attachments:[]};
 
             let rec=movieDataJson.IMDbResults.ResultSet[0].ImdbEntity[0];
