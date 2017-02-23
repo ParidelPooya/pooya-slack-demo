@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c07f0a7-77c8-4433-a3f3-57bfc19233eb" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/root.ts" afterPath="$PROJECT_DIR$/routes/root.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/slack.js" afterPath="$PROJECT_DIR$/routes/slack.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/root.js.map" afterPath="$PROJECT_DIR$/routes/root.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/root.js" afterPath="$PROJECT_DIR$/routes/root.js" />
     </list>
     <ignored path="pooya-slack-demo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,7 +23,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="root.ts" pinned="false" current-in-tab="true">
+      <file leaf-file-name="root.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/root.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="425">
@@ -88,11 +85,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="9" lean-forward="true" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+            <state relative-caret-position="34">
+              <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -162,12 +159,12 @@
         <option value="$PROJECT_DIR$/privacy.html" />
         <option value="$PROJECT_DIR$/helper/settings.ts" />
         <option value="$PROJECT_DIR$/routes/slack.ts" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/routes/slack.js" />
         <option value="$PROJECT_DIR$/add.html" />
         <option value="$PROJECT_DIR$/success.html" />
         <option value="$PROJECT_DIR$/support.html" />
         <option value="$PROJECT_DIR$/routes/root.ts" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -384,11 +381,12 @@
       <workItem from="1487692136245" duration="608000" />
       <workItem from="1487740246680" duration="2187000" />
       <workItem from="1487826040515" duration="94000" />
+      <workItem from="1487826256376" duration="130000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23474000" />
+    <option name="totallyTimeSpent" value="23604000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -797,14 +795,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="9" lean-forward="true" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/routes/slack.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
@@ -849,6 +839,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
           <folding />
         </state>
       </provider>
