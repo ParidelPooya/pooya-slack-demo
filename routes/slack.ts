@@ -23,6 +23,9 @@
             };
             request.post('https://slack.com/api/oauth.access', data, function (error, response, body) {
                 if (!error && response.statusCode == 200) {
+                    res.redirectCount('https://paridelpooya.github.io/pooya-slack-demo/success.html');
+                    
+                    /*
                     // Get an auth token
                     let token = JSON.parse(body).access_token;
 
@@ -37,6 +40,7 @@
                             }
                         }
                     });
+                    */
                 }
             });
 
