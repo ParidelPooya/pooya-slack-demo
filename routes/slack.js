@@ -25,12 +25,11 @@
                     request.post('https://slack.com/api/team.info', { form: { token: token } }, function (error, response, body) {
                         if (!error && response.statusCode == 200) {
                             if (JSON.parse(body).error == 'missing_scope') {
-                                res.send('Movie command has been added to your team!');
+                                res.send('HTTP Status Cats has been added to your team!');
                             }
                             else {
                                 let team = JSON.parse(body).team.domain;
-                                //res.redirect('http://' + team + '.slack.com');
-                                res.redirect('https://paridelpooya.github.io/pooya-slack-demo/success.html');
+                                res.redirect('http://' + team + '.slack.com');
                             }
                         }
                     });

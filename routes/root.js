@@ -30,7 +30,6 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
                 let movieDataJson = yield modernXmlParser.parse(movieDataXml);
                 data = {
                     response_type: 'in_channel',
-                    text: 'Search result for ' + movieName,
                     attachments: [] };
                 let rec = movieDataJson.IMDbResults.ResultSet[0].ImdbEntity[0];
                 let title = rec["_"];
