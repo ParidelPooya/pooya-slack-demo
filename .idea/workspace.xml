@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6c07f0a7-77c8-4433-a3f3-57bfc19233eb" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/add.html" afterPath="$PROJECT_DIR$/add.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/success.html" afterPath="$PROJECT_DIR$/success.html" />
     </list>
     <ignored path="pooya-slack-demo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -381,12 +380,12 @@
       <workItem from="1487692136245" duration="608000" />
       <workItem from="1487740246680" duration="2187000" />
       <workItem from="1487826040515" duration="94000" />
-      <workItem from="1487826256376" duration="1963000" />
+      <workItem from="1487826256376" duration="2041000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25437000" />
+    <option name="totallyTimeSpent" value="25515000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
