@@ -4,9 +4,9 @@
 var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
     return new (P || (P = Promise))(function (resolve, reject) {
         function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
-        function rejected(value) { try { step(generator.throw(value)); } catch (e) { reject(e); } }
+        function rejected(value) { try { step(generator["throw"](value)); } catch (e) { reject(e); } }
         function step(result) { result.done ? resolve(result.value) : new P(function (resolve) { resolve(result.value); }).then(fulfilled, rejected); }
-        step((generator = generator.apply(thisArg, _arguments)).next());
+        step((generator = generator.apply(thisArg, _arguments || [])).next());
     });
 };
 (function () {
@@ -15,22 +15,29 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
             return __awaiter(this, void 0, void 0, function* () {
                 let data = {
                     response_type: 'in_channel',
-                    text: 'Preparing...' };
+                    text: 'Preparing...'
+                };
+                console.log("msg 0");
                 res.setHeader('Content-Type', 'application/json');
                 res.writeHead(200);
                 res.write(JSON.stringify(data));
                 res.end();
+                console.log("msg 1");
                 let settings = require('../helper/settings');
                 let modernRequest = require('../helper/modern-request');
                 let modernXmlParser = require("../helper/modern-xml-parser");
+                console.log("msg 2");
                 let response_url = req.body.response_url;
                 let movieName = req.body.text;
                 let url = "http://www.imdb.com/xml/find?xml=1&nr=1&tt=on&q=" + movieName;
+                console.log("msg 3");
                 let movieDataXml = yield modernRequest.get(url);
                 let movieDataJson = yield modernXmlParser.parse(movieDataXml);
+                console.log("msg 4");
                 data = {
                     response_type: 'in_channel',
-                    attachments: [] };
+                    attachments: []
+                };
                 let rec = movieDataJson.IMDbResults.ResultSet[0].ImdbEntity[0];
                 let title = rec["_"];
                 if (typeof (rec.Description[0]) === "string")
