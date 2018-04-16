@@ -37,6 +37,8 @@
                 console.log("error");
                 console.log(e);
             }
+            console.log("data");
+            console.log(movieDataJson);
 
             console.log("msg 4");
             data = {
@@ -45,7 +47,7 @@
 
             let rec=movieDataJson.Search;
 
-            rec.array.forEach(element => {
+            rec.forEach(element => {
                 data.attachments.push({
                     "color": "#0000ff",
                     "title": element.Title + "(" + element.Year + ")",
