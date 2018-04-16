@@ -11,27 +11,27 @@
                 response_type: 'in_channel', // public to the channel
                 text: 'Preparing...'};
             
-            console.log(0);
+            console.log("msg 0");
             res.setHeader('Content-Type', 'application/json');
             res.writeHead(200);
             res.write(JSON.stringify(data));
             res.end();
 
-            console.log(1);
+            console.log("msg 1");
             let settings=require('../helper/settings');
             let modernRequest=require('../helper/modern-request');
             let modernXmlParser = require("../helper/modern-xml-parser");
             
-            console.log(2);
+            console.log("msg 2");
             let response_url = req.body.response_url;
             let movieName=req.body.text;
             let url="http://www.imdb.com/xml/find?xml=1&nr=1&tt=on&q=" + movieName;
 
-            console.log(3);
+            console.log("msg 3");
             let movieDataXml=await modernRequest.get(url);
             let movieDataJson = await modernXmlParser.parse(movieDataXml);
 
-            console.log(4);
+            console.log("msg 4");
             data = {
                 response_type: 'in_channel', // public to the channel
                 attachments:[]};
