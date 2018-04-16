@@ -28,8 +28,15 @@
             let url="http://www.imdb.com/xml/find?xml=1&nr=1&tt=on&q=" + movieName;
 
             console.log("msg 3");
-            let movieDataXml=await modernRequest.get(url);
-            let movieDataJson = await modernXmlParser.parse(movieDataXml);
+            try {
+                let movieDataXml=await modernRequest.get(url);
+                let movieDataJson = await modernXmlParser.parse(movieDataXml);
+    
+            } catch (e){
+
+                console.log("error");
+                console.log(e);
+            }
 
             console.log("msg 4");
             data = {
