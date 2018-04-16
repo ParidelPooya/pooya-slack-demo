@@ -10,7 +10,8 @@
             let data : any= {
                 response_type: 'in_channel', // public to the channel
                 text: 'Preparing...'};
-
+            
+            console.log(0);
             res.setHeader('Content-Type', 'application/json');
             res.writeHead(200);
             res.write(JSON.stringify(data));
