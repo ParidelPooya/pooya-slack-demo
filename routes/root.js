@@ -47,7 +47,6 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
                     response_type: 'in_channel',
                     attachments: []
                 };
-                let rec = ;
                 if (movieDataJson.Search && movieDataJson.Search.length !== 0) {
                     movieDataJson.Search.forEach(element => {
                         data.attachments.push({
