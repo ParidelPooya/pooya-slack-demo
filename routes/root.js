@@ -29,23 +29,30 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
                 console.log("msg 2");
                 let response_url = req.body.response_url;
                 let movieName = req.body.text;
-                let url = "http://www.imdb.com/xml/find?xml=1&nr=1&tt=on&q=" + movieName;
-                console.log("msg 3");
-                let movieDataXml = yield modernRequest.get(url);
-                let movieDataJson = yield modernXmlParser.parse(movieDataXml);
+                let url = "http://www.omdbapi.com/?s=" + encodeURIComponent(movieName) + "&apikey=f06abf77";
+                let movieData = yield modernRequest.get(url);
+                let movieDataJson = JSON.parse(movieData);
+                try {
+                    movieData = yield modernRequest.get(url);
+                    movieDataJson = JSON.parse(movieData);
+                }
+                catch (e) {
+                    console.log("error");
+                    console.log(e);
+                }
                 console.log("msg 4");
                 data = {
                     response_type: 'in_channel',
                     attachments: []
                 };
-                let rec = movieDataJson.IMDbResults.ResultSet[0].ImdbEntity[0];
-                let title = rec["_"];
-                if (typeof (rec.Description[0]) === "string")
-                    title += " " + rec.Description[0];
-                data.attachments.push({
-                    "color": "#0000ff",
-                    "title": title,
-                    "title_link": "http://www.imdb.com/title/" + rec["$"]["id"]
+                let rec = movieDataJson.Search;
+                rec.array.forEach(element => {
+                    data.attachments.push({
+                        "color": "#0000ff",
+                        "title": element.Title + "(" + element.Year + ")",
+                        "thumb_url": element.Poster,
+                        "title_link": "http://www.imdb.com/title/" + element.imdbID
+                    });
                 });
                 var request = require('request');
                 request.post({
