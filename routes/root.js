@@ -48,14 +48,19 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
                     attachments: []
                 };
                 let rec = movieDataJson.Search;
-                rec.forEach(element => {
-                    data.attachments.push({
-                        "color": "#0000ff",
-                        "title": element.Title + "(" + element.Year + ")",
-                        "thumb_url": element.Poster,
-                        "title_link": "http://www.imdb.com/title/" + element.imdbID
+                if (rec.length === 0) {
+                    data.text = "No results found!";
+                }
+                else {
+                    rec.forEach(element => {
+                        data.attachments.push({
+                            "color": "#0000ff",
+                            "title": element.Title + " (" + element.Year + ")",
+                            "image_url": element.Poster,
+                            "title_link": "http://www.imdb.com/title/" + element.imdbID
+                        });
                     });
-                });
+                }
                 var request = require('request');
                 request.post({
                     url: response_url,
