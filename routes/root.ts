@@ -50,7 +50,7 @@
             if (movieDataJson.Search && movieDataJson.Search.length !== 0){
                 movieDataJson.Search.forEach(element => {
                     data.attachments.push({
-                        "color": "#0000ff",
+                        "color": "#0000aa",
                         "title": element.Title + " (" + element.Year + ")",
                         "image_url": element.Poster,
                         "title_link": "http://www.imdb.com/title/" + element.imdbID
