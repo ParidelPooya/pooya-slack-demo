@@ -45,22 +45,21 @@
                 response_type: 'in_channel', // public to the channel
                 attachments:[]};
 
-            let rec=movieDataJson.Search;
+            let rec=;
 
-            if (rec.length === 0){
-                data.text = "No results found!"
-            } else {
-                rec.forEach(element => {
+            if (movieDataJson.Search && movieDataJson.Search.length !== 0){
+                movieDataJson.Search.forEach(element => {
                     data.attachments.push({
                         "color": "#0000ff",
                         "title": element.Title + " (" + element.Year + ")",
                         "image_url": element.Poster,
                         "title_link": "http://www.imdb.com/title/" + element.imdbID
                     });
-                        
                 });    
-            }
-
+            } else {
+                data.text = "No results found!";
+            }                
+        
             var request = require('request');
 
             request.post({
