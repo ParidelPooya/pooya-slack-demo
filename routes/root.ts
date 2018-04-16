@@ -45,8 +45,6 @@
                 response_type: 'in_channel', // public to the channel
                 attachments:[]};
 
-            let rec=;
-
             if (movieDataJson.Search && movieDataJson.Search.length !== 0){
                 movieDataJson.Search.forEach(element => {
                     data.attachments.push({
