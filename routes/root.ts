@@ -30,6 +30,14 @@
             let movieData=await modernRequest.get(url);
             let movieDataJson = JSON.parse(movieData);
 
+            try{
+                movieData=await modernRequest.get(url);
+                movieDataJson = JSON.parse(movieData);    
+            } catch(e){
+                console.log("error");
+                console.log(e);
+            }
+
             console.log("msg 4");
             data = {
                 response_type: 'in_channel', // public to the channel
