@@ -15,7 +15,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
             return __awaiter(this, void 0, void 0, function* () {
                 let data = {
                     "response_type": "ephemeral",
-                    "text": "Preparing..."
+                    "text": ""
                 };
 
                 res.setHeader('Content-Type', 'application/json');
