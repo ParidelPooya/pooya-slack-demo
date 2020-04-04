@@ -29,6 +29,8 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
                 let modernRequest = require('../helper/modern-request');
                 let modernXmlParser = require("../helper/modern-xml-parser");
 
+                var request = require('request');
+                
                 data = {
                     "response_type": "ephemeral",
                     "replace_original": true,
@@ -54,9 +56,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
                 }
                 catch (e) {
                 }
-                
-                var request = require('request');
-                                
+                                                
                 data = {
                     response_type: 'in_channel',
                     attachments: []
