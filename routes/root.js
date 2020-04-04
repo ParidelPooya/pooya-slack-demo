@@ -14,19 +14,35 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
         app.post('/', function (req, res) {
             return __awaiter(this, void 0, void 0, function* () {
                 let data = {
-                    response_type: 'in_channel',
-                    text: ''
+                    "response_type": "ephemeral",
+                    "replace_original": true,
+                    "delete_original": true,
+                    "text": "Preparing..."
                 };
-                console.log("msg 0");
+
                 res.setHeader('Content-Type', 'application/json');
                 res.writeHead(200);
                 res.write(JSON.stringify(data));
                 res.end();
-                console.log("msg 1");
+
                 let settings = require('../helper/settings');
                 let modernRequest = require('../helper/modern-request');
                 let modernXmlParser = require("../helper/modern-xml-parser");
-                console.log("msg 2");
+
+                data = {
+                    "response_type": "ephemeral",
+                    "replace_original": true,
+                    "delete_original": true,
+                    "text": ""
+                };
+                
+                request.post({
+                    url: response_url,
+                    body: data,
+                    json: true
+                }, function (error, response, responseBody) {
+                });
+                
                 let response_url = req.body.response_url;
                 let movieName = req.body.text;
                 let url = "http://www.omdbapi.com/?s=" + encodeURIComponent(movieName) + "&apikey=f06abf77";
@@ -37,15 +53,11 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
                     movieDataJson = JSON.parse(movieData);
                 }
                 catch (e) {
-                    console.log("error");
-                    console.log(e);
                 }
-                console.log("data");
-                console.log(movieDataJson);
-                console.log("msg 4");
+                
+                var request = require('request');
+                                
                 data = {
-                    replace_original: true,
-                    delete_original: true,
                     response_type: 'in_channel',
                     attachments: []
                 };
@@ -62,7 +74,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
                 else {
                     data.text = "No results found!";
                 }
-                var request = require('request');
+                
                 request.post({
                     url: response_url,
                     body: data,
