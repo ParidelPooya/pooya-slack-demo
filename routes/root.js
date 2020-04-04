@@ -14,7 +14,6 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
         app.post('/', function (req, res) {
             return __awaiter(this, void 0, void 0, function* () {
                 let data = {
-                    replace_original: true
                     response_type: 'in_channel',
                     text: 'Preparing.....'
                 };
