@@ -26,10 +26,10 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
                 let settings = require('../helper/settings');
                 let modernRequest = require('../helper/modern-request');
                 let modernXmlParser = require("../helper/modern-xml-parser");
-
+                
+                let response_url = req.body.response_url;
                 var request = require('request');
                 
-                /*
                 data = {
                     "response_type": "ephemeral",
                     "replace_original": true,
@@ -42,10 +42,8 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
                     body: data,
                     json: true
                 }, function (error, response, responseBody) {
-                });
-                */
-                
-                let response_url = req.body.response_url;
+                });  
+
                 let movieName = req.body.text;
                 let url = "http://www.omdbapi.com/?s=" + encodeURIComponent(movieName) + "&apikey=f06abf77";
                 let movieData = yield modernRequest.get(url);
