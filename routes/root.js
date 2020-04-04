@@ -29,6 +29,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 
                 var request = require('request');
                 
+                /*
                 data = {
                     "response_type": "ephemeral",
                     "replace_original": true,
@@ -42,6 +43,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
                     json: true
                 }, function (error, response, responseBody) {
                 });
+                */
                 
                 let response_url = req.body.response_url;
                 let movieName = req.body.text;
