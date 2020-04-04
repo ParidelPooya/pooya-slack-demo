@@ -32,7 +32,8 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
                 
                 data = {
                     "response_type": "ephemeral",
-                    "delete_original": true
+                    "replace_original": true,
+                    "text": ""
                 };
                 
                 request.post({
