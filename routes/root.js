@@ -45,7 +45,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
                 console.log("msg 4");
                 data = {
                     replace_original: true,
-                    response_type: 'in_channel',
+                    response_type: 'ephemeral',
                     attachments: []
                 };
                 if (movieDataJson.Search && movieDataJson.Search.length !== 0) {
