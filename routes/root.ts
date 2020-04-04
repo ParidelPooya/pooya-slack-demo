@@ -42,6 +42,7 @@
 
             console.log("msg 4");
             data = {
+                replace_original: "true",
                 response_type: 'in_channel', // public to the channel
                 attachments:[]};
 
